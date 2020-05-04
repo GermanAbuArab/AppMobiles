@@ -1,0 +1,104 @@
+/*Generales*/
+
+body {
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;;
+    margin: 0;
+}
+table {
+    background: none;
+    table-layout:fixed;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+table td {
+    white-space: normal;
+    word-wrap: break-word;
+    border: none;
+}
+
+td {
+    text-align: center;
+}
+
+.postUserImgCointeiner {
+    width: 12vw;
+    height: 12vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+/*Celulares*/
+
+#displayContainer{
+    height: 37.5vh;
+    width: 94vw;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+#buttons{
+    width: 94vw;
+    height: 62.5vh;
+    position: fixed;
+    bottom: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+    align-content: center;
+}
+.buttonRow {
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    align-self: center;
+    height: 80%;
+    width: 80%;
+    font-size: 4vh;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+}
+.cero{
+    width: 90%;
+    border-radius: 100px;
+
+}
+.numero{
+    color: white;
+    background-color: #424949 ;
+}
+
+.operador{
+    background-color: orange;
+    color: white;
+}
+
+.funciones{
+    background-color:grey;
+    color: black;
+}
+
+#displayValue{
+    width: 94vw;
+    position: absolute;
+    color: rgb(253, 253, 253);
+    background: none;
+    border: none;
+    font-size: 13vh;
+    top: 22vh;
+    text-align: right;
+}
+

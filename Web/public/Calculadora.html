@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport"
+          content="width=device-width, minimal-ui, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>Calculadora by German Abu Arab</title>
+    <link rel="icon" href="resources/Calculator.ico"/>
+    <link rel="stylesheet" href="css/Calculadora.css">
+    <script src="js/Calculadora.js" type="text/javascript"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="displayContainer">
+    <input type="text" id="displayValue" value="0" disabled="disabled">
+</div>
+<div id="buttons">
+    <table>
+        <tr>
+            <td>
+                <button class="funciones" value="AC" onclick="calcular('AC')">AC</button>
+            </td>
+            <td>
+                <button class="funciones" value="+/-" onclick="calcular('+/-')">+/-</button>
+            </td>
+            <td>
+                <button class="funciones" value="%" onclick="calcular('%')">%</button>
+            </td>
+            <td>
+                <button class="operador" value="/" onclick="calcular('/')">/</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="numero" value="7" onclick="calcular('7')">7</button>
+            </td>
+            <td>
+                <button class="numero" value="8" onclick="calcular('8')">8</button>
+            </td>
+            <td>
+                <button class="numero" value="9" onclick="calcular('9')">9</button>
+            </td>
+            <td>
+                <button class="operador" value="×" onclick="calcular('x')">×</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="numero" value="4" onclick="calcular('4')">4</button>
+            </td>
+            <td>
+                <button class="numero" value="5" onclick="calcular('5')">5</button>
+            </td>
+            <td>
+                <button class="numero" value="6" onclick="calcular('6')">6</button>
+            </td>
+            <td>
+                <button class="operador" value="-" onclick="calcular('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="numero" value="1" onclick="calcular('1')">1</button>
+            </td>
+            <td>
+                <button class="numero" value="2" onclick="calcular('2')">2</button>
+            </td>
+            <td>
+                <button class="numero" value="3" onclick="calcular('3')">3</button>
+            </td>
+            <td>
+                <button class="operador" value="+" onclick="calcular('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="numero cero" value="0" onclick="calcular('0')">0</button>
+            </td>
+            <td>
+                <button class="numero" value="." onclick="calcular('.')">.</button>
+            </td>
+            <td>
+                <button class="operador" value="=" onclick="calcular('=')">=</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+
